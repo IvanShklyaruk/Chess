@@ -1,18 +1,6 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 100%;
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.content {
-  flex: 1;
-  overflow: hidden;
+#app {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: #202020;
 }
